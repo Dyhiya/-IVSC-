@@ -8,7 +8,7 @@ bootstrapExtra().catch(e => console.error(e));
 // Welcome.
 let welcomePopup: any = undefined;
 WA.room.onEnterLayer('welcomeZone').subscribe(() => {
-    welcomePopup = WA.ui.openPopup("welcomeMessage","Bienvenu(e) sur la carte Workadventure de l'association Drupal France !",[]);
+    welcomePopup = WA.ui.openPopup("welcomeMessage","Bienvenu(e) sur la carte Workadventure de l'IVSC !",[]);
 })
 WA.room.onLeaveLayer('welcomeZone').subscribe(closeAllPopUps)
 
